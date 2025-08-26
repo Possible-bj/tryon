@@ -10,3 +10,7 @@ src/marketing_assistant_ai/chroma_manager.pyc
 src/marketing_assistant_ai/llm_manager.pyc
 src/marketing_assistant_ai/=3.35.0
 .env
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

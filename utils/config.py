@@ -1,7 +1,7 @@
 from datetime import datetime
 
 # Cohere API Configuration
-COHERE_API_KEY = "ZlABLjvSsT86iObp9cgIgNkx2BLPs62pZiXBczw9"
+COHERE_API_KEY = ""
 EMBEDDING_MODEL = "embed-english-v3.0"  # Cohere model name
 EMBEDDING_DIMENSION = 1024  # Dimension for Cohere embeddings
 
