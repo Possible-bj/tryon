@@ -1,0 +1,41 @@
+{
+  "name": "Styled AI - Virtual Try-On Service",
+  "description": "GPU-accelerated AI service for virtual try-on processing",
+  "dockerImageName": "your-registry/styled-ai:latest",
+  "containerPort": 8000,
+  "dockerArgs": "",
+  "env": [
+    {
+      "key": "SECRET_KEY",
+      "value": "your-secret-key-here"
+    },
+    {
+      "key": "GPU_ENABLED",
+      "value": "true"
+    },
+    {
+      "key": "MODEL_PRECISION",
+      "value": "float16"
+    },
+    {
+      "key": "BATCH_SIZE",
+      "value": "8"
+    }
+  ],
+  "volumeMounts": [
+    {
+      "hostPath": "/runpod-volume/models",
+      "containerPath": "/app/models"
+    },
+    {
+      "hostPath": "/runpod-volume/logs",
+      "containerPath": "/app/logs"
+    }
+  ],
+  "resources": {
+    "gpuCount": 1,
+    "cpuCount": 4,
+    "memoryInGb": 16,
+    "diskSizeInGb": 50
+  }
+}

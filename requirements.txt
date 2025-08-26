@@ -1,0 +1,24 @@
+# Core web framework for API
+fastapi
+uvicorn
+python-multipart
+
+# Environment and configuration
+python-dotenv
+pydantic>=2.0
+pydantic-settings
+
+# Core data science and numerical computing
+numpy
+Pillow
+
+# AI/ML libraries
+tensorflow
+torch
+torchvision
+
+# HTTP client for URL image downloads
+aiohttp
+
+# Utilities
+python-dateutil

@@ -1,0 +1,12 @@
+venv
+datasets
+data_processing
+experiments
+index
+models
+chroma_index
+src/marketing_assistant_ai/__pycache__
+src/marketing_assistant_ai/chroma_manager.pyc
+src/marketing_assistant_ai/llm_manager.pyc
+src/marketing_assistant_ai/=3.35.0
+.env
